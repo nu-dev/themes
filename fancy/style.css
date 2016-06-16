@@ -1,0 +1,159 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    min-height: 100%;
+    font-size: 1.1em;
+    background-color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+    font-weight: normal;
+}
+
+a {
+    color: #0A6E17;
+}
+
+a:hover {
+    color: #000;
+}
+
+.header, .footer {
+    background-color: #444;
+    color: #fff;
+    font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+    text-align: right;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 80%;
+    box-sizing: border-box;
+    background: url('http://i.imgur.com/dw3Y98T.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2em 0 0 0;
+}
+
+.header-inner {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em 0;
+}
+
+.footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 1em 0;
+}
+
+.header h1 {
+    font-weight: lighter;
+    font-size: 3em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.unstyled {
+    color: #fff;
+    text-decoration: none;
+}
+
+.unstyled:hover {
+    color: #fff;
+}
+
+.tagline {
+    max-width: 1000px;
+    margin: 0.5em auto;
+    font-family: 'Georgia', serif;
+    font-size: 1.2em;
+}
+
+.navbar {
+    background-color: #333;
+    display: inline-block;
+    width: 100%;
+}
+
+.nav {
+    list-style: none;
+    padding-left: 0;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.nav-li {
+    float: left;
+    position: relative;
+}
+
+.nav-itm {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 60px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-itm:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+.content {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    top: 70%;
+}
+
+.post {
+    padding: 1em;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.postlink {
+    text-decoration: none;
+    color: #333;
+}
+
+.postinfo {
+    font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+    color: #666;
+}
+
+.footer-nav {
+    width: 100%;
+    padding: 0;
+    border: 0;
+}
+
+.footer-nav-itm {
+    width: 33%;
+}
+
+.older-link, .newer-link {
+    text-decoration: none;
+}
+
+.footer-nav-itm-center {
+    text-align: center;
+}
+
+.footer-nav-itm-right {
+    text-align: right;
+}
