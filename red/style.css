@@ -20,7 +20,7 @@ a {
     color: #BA0000;
 }
 
-a:hover {
+a:hover, a:active {
     color: #000;
 }
 
@@ -51,7 +51,7 @@ a:hover {
     text-decoration: none;
 }
 
-.unstyled:hover {
+.unstyled:hover, .unstyled:active {
     color: #fff;
 }
 
@@ -89,7 +89,7 @@ a:hover {
     display: block;
 }
 
-.nav-itm:hover {
+.nav-itm:hover, .nav-itm:active {
     background-color: #DE0000;
     color: #fff;
 }
