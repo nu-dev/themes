@@ -1,0 +1,8 @@
+<article class="post">
+<h1 class="article-title"><a href="{{linkprefix}}/{{ post.link }}" class="postlink">{{ post.name }}</a></h1>
+<div class="article-date">Created: {{ post.cdate }}</div>
+<div class="article-date">Last modified: {{ post.mdate }} at {{ post.mtime }}</div>
+<div class="post-text">
+{{ post.contents }}
+</div>
+</article>

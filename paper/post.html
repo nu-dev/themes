@@ -1,0 +1,21 @@
+{{ theme.openhead }}
+{{ theme.style }}
+<title>{{ sitename }} &middot; {{ post.name }}</title>
+{{ theme.closehead }}
+{{ theme.openbody }}
+{{ theme.header }}
+{{ theme.opencontent }}
+<article class="post">
+<h1 class="article-title">{{ post.name }}</h1>
+<div class="article-date">Created: {{ post.cdate }}</div>
+<div class="article-date">Last modified: {{ post.mdate }} at {{ post.mtime }}</div>
+<div class="post-text">
+{{ post.contents }}
+</div>
+{{ disqus }}
+</article>
+<footer>
+{{ theme.footer }}
+</footer>
+{{ theme.closecontent }}
+{{ theme.closebody }}
