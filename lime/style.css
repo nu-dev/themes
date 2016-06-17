@@ -13,7 +13,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 0;
     font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
     font-weight: normal;
 }
@@ -120,6 +119,9 @@ h1 {
     color: #666;
 }
 
+.postname {
+    margin: 0 0 0.1em 0;
+}
 
 pre {
     padding: 16px;
@@ -152,7 +154,7 @@ blockquote {
 
 table {
     border-collapse: collapse;
-    margin-bottom: 1em;
+    margin: 1em 0;
 }
 
 th {

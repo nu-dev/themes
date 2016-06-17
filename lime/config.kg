@@ -9,7 +9,9 @@ openhead = <<<FIN
 FIN
 
 # include relevant styles
-style = "<link href='{{linkprefix}}/theme/lime/style.css' rel='stylesheet' type='text/css'>"
+style = <<<END
+<link href='{{linkprefix}}/theme/lime/style.css' rel='stylesheet' type='text/css'>
+END
 
 # not sure why these need to be separated, but I did anyways :p
 closehead = "</head>"
