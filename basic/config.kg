@@ -15,7 +15,7 @@ openbody = "<body>"
 header = <<<END
 <div class="header">
 <a href="{{linkprefix}}/" class="sitename">{{ sitename }}</a> | 
-<span class="tagline">{{ sitedesc }}</span>&emsp;
+<span class="tagline">{{ sitedesc }}</span> | 
 {{ special.navbar }}
 </div>
 END
