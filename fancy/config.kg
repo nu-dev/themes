@@ -32,6 +32,21 @@ openpost = <<<END
 END
 closepost = "</div>"
 
+navbar_template = <<<END
+<li class="nav-li">
+<a class="nav-itm" href="{{linkprefix}}/{{ post.link }}">{{ post.name }}</a>
+</li>
+END
+
+singlepost_template = <<<END
+{{ theme.openpost }}
+<h1 class="postname"><a href="{{linkprefix}}/{{ post.link }}" class="postlink">{{ post.name }}</a></h1>
+<div class="postinfo">Created: {{ post.cdate }}<br />
+Last modified: {{ post.mdate }} at {{ post.mtime }}<br /></div>
+{{ post.contents }}
+{{ theme.closepost }}
+END
+
 opencontent = <<<END
 <div class="content">
 <div class="navbar"><ul class="nav">
@@ -59,4 +74,4 @@ newerlinktext = "Newer"
 olderlinkclass = "older-link"
 olderlinktext = "Older"
 
-maxpostsperpage = "apple"
+maxpostsperpage = "3"

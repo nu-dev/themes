@@ -1,4 +1,4 @@
-# red theme by ohnx
+# paper theme by ohnx
 
 # open the head
 openhead = <<<FIN
@@ -36,6 +36,23 @@ header = <<<END
 </aside>
 END
 
+navbar_template = <<<END
+<li class="nav-li">
+<a class="nav-itm" href="{{linkprefix}}/{{ post.link }}">{{ post.name }}</a>
+</li>
+END
+
+singlepost_template = <<<END
+<article class="post">
+<h1 class="article-title"><a href="{{linkprefix}}/{{ post.link }}" class="postlink">{{ post.name }}</a></h1>
+<div class="article-date">Created: {{ post.cdate }}</div>
+<div class="article-date">Last modified: {{ post.mdate }} at {{ post.mtime }}</div>
+<div class="post-text">
+{{ post.contents }}
+</div>
+</article>
+END
+
 opencontent = <<<END
 <section id="content">
 END
@@ -64,4 +81,4 @@ newerlinktext = "Newer"
 olderlinkclass = "pagination-arrow older"
 olderlinktext = "Older"
 
-maxpostsperpage = "apple"
+maxpostsperpage = "3"

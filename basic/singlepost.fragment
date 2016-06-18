@@ -1,1 +1,0 @@
-<tr class="postinfo"><td class="postinfo">{{ post.cdate }}</td><td class="postinfo">&raquo;</td><td class="postinfo"><a href="{{linkprefix}}/{{ post.link }}" class="postlink">{{ post.name }}</a></td></tr>

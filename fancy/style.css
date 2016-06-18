@@ -125,6 +125,10 @@ h1 {
     font-size: 2.5em;
 }
 
+h1:first-child {
+    margin-top: 0;
+}
+
 .postlink {
     text-decoration: none;
     color: #333;

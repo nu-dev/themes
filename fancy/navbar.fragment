@@ -1,3 +1,0 @@
-<li class="nav-li">
-<a class="nav-itm" href="{{linkprefix}}/{{ post.link }}">{{ post.name }}</a>
-</li>
