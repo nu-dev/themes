@@ -22,13 +22,13 @@ header = <<<END
 <div class="header">
 <h1 class="header-title"><a href="{{linkprefix}}/" class="unstyled">{{ sitename }}</a></h1>
 <p class="tagline">{{ sitedesc }}</p>
-</div>
 <div class="navbar"><ul class="nav">
 <li class="nav-li">
 <a class="nav-itm" href="{{linkprefix}}/">Home</a>
 </li>
 {{ special.navbar }}
 </ul></div>
+</div>
 </div>
 END
 
