@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+    font-family: 'Lora', 'Georgia', serif;
     font-weight: normal;
 }
 
@@ -26,7 +26,7 @@ a:hover, a:active {
 .header, .footer {
     background-color: #333;
     color: #fff;
-    font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+    font-family: 'Lora', 'Georgia', serif;
     padding: 1em;
     text-align: right;
 }
@@ -115,7 +115,7 @@ h1:first-child {
 }
 
 .postinfo {
-    font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+    font-family: 'Lora', 'Georgia', serif;
     color: #666;
 }
 
@@ -193,4 +193,8 @@ tr:nth-child(even) {
 
 .footer-nav-itm-right {
     text-align: right;
+}
+
+img {
+    max-width: 100%;
 }

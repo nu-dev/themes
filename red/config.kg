@@ -10,6 +10,7 @@ FIN
 
 # include relevant styles
 style = <<<END
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 <link href='{{linkprefix}}/theme/red/style.css' rel='stylesheet' type='text/css'>
 END
 
@@ -34,13 +35,13 @@ END
 
 navbar_template = <<<END
 <li class="nav-li">
-<a class="nav-itm" href="{{linkprefix}}/{{ post.link }}">{{ post.name }}</a>
+<a class="nav-itm" href="{{linkprefix}}{{ post.link }}">{{ post.name }}</a>
 </li>
 END
 
 singlepost_template = <<<END
 {{ theme.opencontent }}
-<h1 class="postname"><a href="{{linkprefix}}/{{ post.link }}" class="postlink">{{ post.name }}</a></h1>
+<h1 class="postname"><a href="{{linkprefix}}{{ post.link }}" class="postlink">{{ post.name }}</a></h1>
 <div class="postinfo">Created: {{ post.cdate }}<br />
 Last modified: {{ post.mdate }} at {{ post.mtime }}<br /></div>
 {{ post.contents }}

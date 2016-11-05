@@ -30,12 +30,12 @@ END
 closecontent = "</div>"
 
 navbar_template = <<<END
-<a href="{{linkprefix}}/{{ post.link }}" class="nav">{{ post.name }}</a>&emsp;
+<a href="{{linkprefix}}{{ post.link }}" class="nav">{{ post.name }}</a>&emsp;
 END
 
 singlepost_template = <<<END
 <div>
-<h1><a href="{{linkprefix}}/{{ post.link }}" class="postlink">{{ post.name }}</a></h1>
+<h1><a href="{{linkprefix}}{{ post.link }}" class="postlink">{{ post.name }}</a></h1>
 {{ post.cdate }}<br />
 {{ post.contents }}
 </div>

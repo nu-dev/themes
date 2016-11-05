@@ -4,6 +4,7 @@ openhead = <<<FIN
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
         <link href='{{linkprefix}}/theme/basic/style.css' rel='stylesheet' type='text/css'>
 FIN
 
@@ -26,11 +27,11 @@ END
 closecontent = "</div>"
 
 navbar_template = <<<END
-<a href="{{linkprefix}}/{{ post.link }}" class="nav-postlink">{{ post.name }}</a>&emsp;
+<a href="{{linkprefix}}{{ post.link }}" class="nav-postlink">{{ post.name }}</a>&emsp;
 END
 
 singlepost_template = <<<END
-<tr class="postinfo"><td class="postinfo">{{ post.cdate }}</td><td class="postinfo">&raquo;</td><td class="postinfo"><a href="{{linkprefix}}/{{ post.link }}" class="postlink">{{ post.name }}</a></td></tr>
+<tr class="postinfo"><td class="postinfo">{{ post.cdate }}</td><td class="postinfo">&raquo;</td><td class="postinfo"><a href="{{linkprefix}}{{ post.link }}" class="postlink">{{ post.name }}</a></td></tr>
 END
 
 closebody = <<<END

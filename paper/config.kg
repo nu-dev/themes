@@ -38,13 +38,13 @@ END
 
 navbar_template = <<<END
 <li class="nav-li">
-<a class="nav-itm" href="{{linkprefix}}/{{ post.link }}">{{ post.name }}</a>
+<a class="nav-itm" href="{{linkprefix}}{{ post.link }}">{{ post.name }}</a>
 </li>
 END
 
 singlepost_template = <<<END
 <article class="post">
-<h1 class="article-title"><a href="{{linkprefix}}/{{ post.link }}" class="postlink">{{ post.name }}</a></h1>
+<h1 class="article-title"><a href="{{linkprefix}}{{ post.link }}" class="postlink">{{ post.name }}</a></h1>
 <div class="article-date">Created: {{ post.cdate }}</div>
 <div class="article-date">Last modified: {{ post.mdate }} at {{ post.mtime }}</div>
 <div class="post-text">
