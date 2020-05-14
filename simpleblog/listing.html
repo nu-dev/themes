@@ -1,0 +1,14 @@
+<table class="listing">
+{%
+for i,post in ipairs(posts) do
+if tonumber(i) >= tonumber(listing.start) and tonumber(i) < tonumber(listing.finish) then
+%}
+<tr>
+    <td><span class="subtitle">{{ post.cdate }}</span></td>
+    <td><a href="{{ linkprefix }}{{ post.link }}">{{ post.name }}</a></td>
+</tr>
+{%
+end
+end
+%}
+</table>

@@ -1,0 +1,11 @@
+<div class="post">
+<h1 class="post-title">{{ post.name }}</h1>
+{% if not (post.is_special == "true") then %}
+<h5 class="subtitle">Created {{ post.cdate }} |
+Last modified {{ post.mdate }} at {{ post.mtime }} |
+<a href="{{ linkprefix }}/{{ post.raw_link }}">Source</a></h5>
+{% end %}
+{{ post.contents }}
+{% if not (post.is_special == "true") then %}
+{% end %}
+</div>

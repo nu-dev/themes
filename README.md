@@ -6,4 +6,5 @@ A collection of themes for nu.
  - lime: Similar to red, but with a lime gradient background.
  - fancy: Another single-column theme, but this time with a larger header that has a photo.
  - paper: A 2-column theme that is supposed to resemble paper.
+ - simpleblog: A simple blog theme
  - metropolis: A 2-column theme based on [a friend](http://monicagalaxy.info/)s' theme.

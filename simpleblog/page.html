@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Gelasio|Inconsolata&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='{{ linkprefix }}/themes/simple/assets/css/style.css' type='text/css' media='all' />
+    <title>{{ sitename }} - {{ page.title }}</title>
+</head>
+<body>
+    <header>
+        <h2 class="title"><a href="{{ linkprefix }}/">{{ sitename }}</a></h2>
+        <h5 class="subtitle">
+            <a href="{{ linkprefix }}/">{{ sitedesc }}</a>
+<!--            <a class="st-right" href="{{ linkprefix }}/special/about.html">About</a> -->
+        </h5>
+    </header>
+    <div class="site">
+        {{ page.contents }}
+    </div>
+</body>
+</html>

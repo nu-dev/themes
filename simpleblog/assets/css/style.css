@@ -1,0 +1,153 @@
+body {
+    margin: 1em auto;
+    max-width: 50em;
+    font-family: 'Gelasio', serif;
+    color: black;
+    font-size: 1.2em;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header-main, nav {
+    float: left;
+}
+
+nav {
+    margin-left: 1em;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin: 0 0.5em;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.site {
+    clear: both;
+}
+
+.post-title {
+    margin-bottom: 0;
+}
+
+pre {
+    font-family: 'Inconsolata', monospace;
+}
+
+li {
+    padding-top: 0.5em;
+}
+
+img {
+    max-width: 100%;
+}
+
+blockquote {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border-left: 2px solid #777;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #eee;
+}
+
+.listing {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    text-align: left;
+}
+
+.listing td {
+    border: none;
+}
+
+.listing td:first-child {
+    padding-right: 1em;
+}
+
+.listing a {
+    text-decoration: none;
+    color: #000;
+}
+
+.listing a:visited {
+    color: #333;
+}
+
+.listing a:hover, .listing a:active {
+    text-decoration: underline;
+}
+
+/* small screens */
+@media only screen and (max-width: 700px) {
+    body {
+        margin: 0;
+        padding: 1em;
+    }
+    .listing td {
+        padding-bottom: 0.5em;
+    }
+}
+
+/* Site title back to home page */
+.title a, .subtitle a {
+    text-decoration: none;
+}
+.title a {
+    color: #000;
+}
+
+.title, .subtitle {
+    margin: 0;
+}
+
+.subtitle, .subtitle a {
+    color: #777;
+}
+
+.subtitle {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.st-right {
+    float: right;
+}
+
+footer {
+    margin-top: 2em;
+}
+
+/* Math */
+.math {
+    color: black;
+}
+
+/* Center */
+.center {
+    text-align: center;
+    width: 100%;
+}
